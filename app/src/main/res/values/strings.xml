@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">LiveCap</string>
+
+    <string name="status_overlay_permission_granted">Overlay permission: granted</string>
+    <string name="status_overlay_permission_missing">Overlay permission: not granted</string>
+    <string name="status_notification_permission_granted">Notifications: granted</string>
+    <string name="status_notification_permission_missing">Notifications: not granted</string>
+    <string name="status_models_ready">Offline models: ready</string>
+    <string name="status_models_missing">Offline models: not downloaded</string>
+    <string name="status_models_downloading">Offline models: downloading…</string>
+    <string name="status_capture_running">Capture: running</string>
+    <string name="status_capture_stopped">Capture: stopped</string>
+    <string name="status_translation_paused">Translation: paused</string>
+    <string name="status_translation_active">Translation: active</string>
+
+    <string name="button_grant_overlay">Grant Overlay Permission</string>
+    <string name="button_adjust_region">Adjust Capture Region</string>
+    <string name="button_download_models">Download Offline Models</string>
+    <string name="button_start_capture">Start Capture</string>
+    <string name="button_stop_capture">Stop Capture</string>
+    <string name="button_pause_translation">Pause Translation</string>
+    <string name="button_resume_translation">Resume Translation</string>
+
+    <string name="label_target_language">Translate captions to</string>
+    <string name="language_english">English</string>
+    <string name="language_indonesian">Indonesian</string>
+
+    <string name="label_capture_interval">Capture interval</string>
+    <string name="label_wifi_only_download">Wi-Fi only for model download</string>
+
+    <string name="notification_channel_name">LiveCap capture</string>
+    <string name="notification_title">LiveCap is running</string>
+    <string name="notification_text_active">Translating captions every %1$dms</string>
+    <string name="notification_text_paused">Translation paused</string>
+    <string name="notification_action_pause">Pause</string>
+    <string name="notification_action_resume">Resume</string>
+    <string name="notification_action_stop">Stop</string>
+    <string name="notification_action_resume_after_kill">Tap to resume LiveCap</string>
+
+    <string name="hint_reposition_region">Drag to move, drag corners to resize. Tap the checkmark when done.</string>
+    <string name="toast_language_restart_required">Restart capture to translate into %1$s</string>
+    <string name="toast_grant_overlay_first">Grant overlay permission first</string>
+</resources>
